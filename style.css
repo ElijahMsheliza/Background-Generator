@@ -1,0 +1,20 @@
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1 {
+    font: 600 2.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}

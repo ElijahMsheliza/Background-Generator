@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript" defer></script>
+</head>
+<body>
+
+    <!-- Background Container-->
+    <div class="container-fluid vh-100 text-center container-bg">
+        <div class="row pt-5">
+            <div class="col">
+                <h1 class="text-uppercase">Background Generator</h1>
+            </div> 
+        </div>
+        <!-- Input colors Manually-->
+        <div class="row justify-content-center mt-4">
+            <div class="col col-auto ">
+                <input class="color1" type="color" name="color1" value="#ff0000">
+            </div>
+            <div class="col col-auto">
+                <input class="color2" type="color" name="color2" value="#00ff00">
+            </div>
+            <div class="col col-auto">
+                <input class="color3" type="color" name="color3" value="#0000ff">
+            </div>
+        </div>
+        
+        <h2 class="mt-4">Current CSS Background</h2>
+        <h3 id="bgValue"></h3>
+
+        <!-- Display random background color-->
+        <button type="button" class="btn btn-outline-dark btn-lg mt-5 random-background">Set Random Background</button>
+    </div>
+</body>
+</html>
